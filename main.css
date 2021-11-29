@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: pink;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.sign__bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #F6F6F6;
+  box-shadow: 0 0 7px #b4b4b4;
+  align-items: center;
+}
+.sign__bar p span {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+.sign__bar .input__wraps label input {
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+}
+.sign__bar .input__wraps a {
+  padding: 0.5rem;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+header .logo {
+  width: 400px;
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+header .logo img {
+  width: 100%;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+}
+header .navbar ul {
+  display: flex;
+}
+header .navbar ul li {
+  list-style: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+header .navbar ul .nav__text {
+  margin-left: 47px;
+  cursor: pointer;
+}
+header .navbar ul .nav__text:hover {
+  color: #87A0A4;
+}
+header .icons {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+header .icons .nav__icons {
+  width: 20px;
+  margin: 8px;
+}
+header .icons .nav__icons svg {
+  width: 100%;
+  cursor: pointer;
+}
+header .icons .nav__icons svg:hover {
+  fill: #87A0A4;
+}
+
+section {
+  padding: 2rem;
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+section main {
+  width: 850px;
+}
+section main .main__image_wrap {
+  width: 850px;
+}
+section main .main__image_wrap img {
+  width: 100%;
+}
+section main .description {
+  margin-bottom: 75px;
+}
+section main .description h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 15px 0 10px 0;
+}
+section main .description .subtitle {
+  color: gray;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+section main .description .title {
+  color: gray;
+  margin-bottom: 40px;
+}
+section main .description a {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid black;
+  padding: 10px 15px;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+section main .description a:hover {
+  color: #87A0A4;
+  border: 2px solid #87A0A4;
+}
+section main .line__image {
+  width: 100%;
+  height: 100px;
+  background-image: url("img/Untitled-2.jpg");
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 50px;
+  margin-bottom: 60px;
+}
+section main .line__image p {
+  cursor: pointer;
+  margin: 5px;
+  color: #F6F6F6;
+  font-weight: 700;
+}
+section main .line__image p span {
+  color: blue;
+}
+section aside {
+  width: 345px;
+}
+section aside .aside__image_wrap {
+  width: 345px;
+  margin-bottom: 30px;
+}
+section aside .aside__image_wrap img {
+  width: 100%;
+}
+section aside .aside__text__block h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 30px 0 30px 0;
+}
+section aside .aside__text__block p {
+  margin-bottom: 30px;
+  line-height: 26px;
+  color: gray;
+}
+section aside .aside__text__block p span {
+  font-family: serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+}
+section .aside__search_block {
+  width: 100%;
+  height: 62px;
+  background-color: #e2e2e2;
+  padding: 11px;
+}
+section .aside__search_block label {
+  display: flex;
+  align-items: center;
+}
+section .aside__search_block label input {
+  padding: 11px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+section .aside__search_block label a {
+  padding: 10px;
+  color: #F6F6F6;
+  background-color: black;
+}
+
+.main__wrap {
+  padding-bottom: 30px;
+}
+
+footer h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 15px 0 10px 0;
+}
+footer .footer__image_wrap {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+footer .footer__image_wrap .footer__image {
+  max-width: 410px;
+  max-height: 550px;
+}
+footer .footer__image_wrap .footer__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.popular .title h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 50px 0 30px 0;
+}
+
+.news__wrap .news__item {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 35px;
+  height: 90px;
+}
+.news__wrap .news__item .news__image {
+  width: 90px;
+  height: 90px;
+}
+.news__wrap .news__item .news__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.news__wrap .news__text h1 {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.news__wrap .news__text p {
+  color: #b4b4b4;
+}
+
+/*# sourceMappingURL=main.css.map */
